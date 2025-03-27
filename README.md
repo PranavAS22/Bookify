@@ -9,7 +9,7 @@ Bookify is an online movie ticket booking system that allows users to select mov
 - **Movie Listings**: View available movies and their details.
 - **Seat Selection**: Choose available seats for a movie show.
 - **Booking System**: Secure ticket booking and confirmation.
-- **Admin Panel**: Add movie, theaters , bookings.
+- **Admin Panel**: Add movie, theaters, bookings.
 
 ---
 
@@ -86,6 +86,16 @@ UI runs on: `http://localhost:3000`
 
 ---
 
+## Signing Up as Admin
+To register as an admin, sign up using the following email:
+
+- **Email**: `admin@bookify.com`
+- **Any Username & Password of Your Choice**
+
+Users signing up with this email will automatically have admin privileges.
+
+---
+
 ## Docker Compose File
 ```yaml
 services:
@@ -123,4 +133,3 @@ volumes:
 ---
 
 ### Happy Booking with Bookify! 🎟️🎬
-
